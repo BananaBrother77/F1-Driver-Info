@@ -1,3 +1,7 @@
+document.getElementById('profileImg').addEventListener('click', () => {
+  window.location.href = 'https://BananaBrother77.github.io/AboutMe/';
+});
+
 async function updateOpenF1Dashboard() {
   try {
     const response = await fetch("https://api.openf1.org/v1/drivers?session_key=latest");
